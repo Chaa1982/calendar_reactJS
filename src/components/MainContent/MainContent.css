@@ -1,0 +1,42 @@
+.main-content {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 80px);
+}
+
+.sidebar {
+  width: 300px;
+  background-color: white;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.create-event-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-event-btn:hover {
+  background-color: #1669d6;
+}
+
+.calendar-view {
+  flex: 1;
+  background-color: #f8f9fa;
+  position: relative;
+  overflow: auto;
+}

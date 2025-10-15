@@ -1,0 +1,1 @@
+export {TIcon} from './TIcon';
